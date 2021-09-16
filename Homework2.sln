@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraduationHandout", "GraduationHandout\GraduationHandout.csproj", "{8D7E2D19-A8A4-4682-A759-FEF32EBFDE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FulfillData", "FulfillData\FulfillData.csproj", "{EDEF4A51-B112-4533-B5F8-76785F18A1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRmaker", "QRmaker\QRmaker.csproj", "{A3904FE5-1BD3-4703-8616-E7DE1C6D5B15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D7E2D19-A8A4-4682-A759-FEF32EBFDE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7E2D19-A8A4-4682-A759-FEF32EBFDE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7E2D19-A8A4-4682-A759-FEF32EBFDE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7E2D19-A8A4-4682-A759-FEF32EBFDE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEF4A51-B112-4533-B5F8-76785F18A1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEF4A51-B112-4533-B5F8-76785F18A1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEF4A51-B112-4533-B5F8-76785F18A1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEF4A51-B112-4533-B5F8-76785F18A1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3904FE5-1BD3-4703-8616-E7DE1C6D5B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3904FE5-1BD3-4703-8616-E7DE1C6D5B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3904FE5-1BD3-4703-8616-E7DE1C6D5B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3904FE5-1BD3-4703-8616-E7DE1C6D5B15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8889B327-91E5-47CB-8896-C3DD2D422BCD}
+	EndGlobalSection
+EndGlobal

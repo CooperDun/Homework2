@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:FulfillData"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid HorizontalAlignment="Center" Width="800" Height="434" VerticalAlignment="Bottom">
+        <ListBox x:Name="lstBoth" Margin="55,78,614,207"/>
+        <ListBox x:Name="lstMales" Margin="213,78,456,207"/>
+        <ListBox x:Name="lstFemale" Margin="430,78,239,207"/>
+        <ListBox x:Name="lstMean" Margin="627,78,42,207"/>
+        <TextBlock Text="States most fulflled Male and Female" TextWrapping="Wrap" Margin="55,28,614,376"/>
+        <TextBlock Text="States most fulfilled for Males" TextWrapping="Wrap" Margin="213,28,456,376"/>
+        <TextBlock Text="State Most Fulfilled for Females" TextWrapping="Wrap" Margin="430,30,239,374" RenderTransformOrigin="0.471,0.558"/>
+        <TextBlock Text="States with a Mean higher or equal to eight" TextWrapping="Wrap" Margin="627,28,42,376"/>
+        <TextBlock Text="Please click the SUBMIT to open a data set" TextWrapping="Wrap" Margin="234,278,234,79" FontSize="24"/>
+        <Button Content="SUBMIT" Margin="548,300,79,73" Click="Button_Click"/>
 
     </Grid>
 </Window>

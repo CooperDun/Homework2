@@ -6,7 +6,28 @@
         xmlns:local="clr-namespace:GraduationHandout"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid HorizontalAlignment="Center" Width="800" Height="434" VerticalAlignment="Bottom">
+        <Label Content="Last Name:" Margin="78,72,628,333"/>
+        <Label Content="Major:" Margin="78,106,628,302"/>
+        <Label Content="GPA:" Margin="78,142,628,268"/>
+        <Label Content="Street Number:" Margin="60,179,646,232" RenderTransformOrigin="0.513,0.176"/>
+        <Label Content="Street Name:" Margin="78,217,628,192"/>
+        <Label Content="First Name:" Margin="78,38,628,367"/>
+        <Label Content="City:" Margin="78,251,628,159"/>
+        <Label Content="State:" Margin="78,294,628,116"/>
+        <Label Content="Zipcode:" Margin="78,336,628,74"/>
+        <Label Content="OU Graduate Form" Margin="377,19,74,367" FontSize="36" FontFamily="Gabriola"/>
+        <TextBox x:Name="fntxt" Text="TextBox" TextWrapping="Wrap" Margin="158,38,501,367"/>
+        <TextBox x:Name="lntxt" Text="TextBox" TextWrapping="Wrap" Margin="158,72,501,333"/>
+        <TextBox x:Name="majortxt" Text="TextBox" TextWrapping="Wrap" Margin="158,108,501,297"/>
+        <TextBox x:Name="gpatxt" Text="TextBox" TextWrapping="Wrap" Margin="158,142,501,263"/>
+        <TextBox x:Name="snumtxt" Text="TextBox" TextWrapping="Wrap" Margin="158,179,501,226"/>
+        <TextBox x:Name="snametxt" Text="TextBox" TextWrapping="Wrap" Margin="158,215,501,190"/>
+        <TextBox x:Name="citytxt" Text="TextBox" TextWrapping="Wrap" Margin="158,251,501,154"/>
+        <TextBox x:Name="statetxt" Text="TextBox" TextWrapping="Wrap" Margin="158,294,501,111"/>
+        <TextBox x:Name="ziptxt" Text="TextBox" TextWrapping="Wrap" Margin="158,336,501,69"/>
+        <Button x:Name="Button" Content="SUBMIT" Margin="107,380,539,26" Click="Button_Click"/>
+        <ListBox x:Name="Studinfo" Margin="394,106,74,48"/>
 
     </Grid>
 </Window>

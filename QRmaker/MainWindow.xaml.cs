@@ -27,6 +27,19 @@ namespace QRmaker
             InitializeComponent();
         }
 
+
+        QRCodeGenerator qrGenerator = new QRCodeGenerator();
+        QRCodeData qrCodeData = qrGenerator.CreateQrCode("The text which should be encoded.", QRCodeGenerator.ECCLevel.Q);
+        QRCode qrCode = new QRCode(qrCodeData);
+        Bitmap qrCodeImage = qrCode.GetGraphic(20);
+
+        Url generator = new Url("https://github.com/codebude/QRCoder/");
+        string payload = generator.ToString();
+
+        QRCodeGenerator qrGenerator = new QRCodeGenerator();
+        QRCodeData qrCodeData = qrGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
+        QRCode qrCode = new QRCode(qrCodeData);
+        var qrCodeAsBitmap = qrCode.GetGraphic(20);
         BitmapImage BitmapToImageSource(Bitmap bitmap)
         {
             using (MemoryStream memory = new MemoryStream())
@@ -41,6 +54,8 @@ namespace QRmaker
 
                 return bitmapimage;
             }
+
+            
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)

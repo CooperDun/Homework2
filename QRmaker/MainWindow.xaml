@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:QRmaker"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="Wifi" Content="Button" Margin="56,46,631,352" Click="Button_Click"/>
-
-    </Grid>
+    <Grid/>
 </Window>
